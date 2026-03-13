@@ -801,7 +801,7 @@ rtrMarkChannel(plane, tiles, point, corner)
 	    if (rtrMARKED(tile,rtrNE)) rtrMARK(new,rtrNE);
 	    else rtrCLEAR(new,rtrNE);
 	    if (rtrMARKED(tile,rtrSE)) rtrMARK(new,rtrSE);
-	    else rtrCLEAR(new,rtrNE);
+	    else rtrCLEAR(new,rtrSE);
 
 	    /*
 	     * Clear these flags:
